@@ -1,0 +1,14 @@
+Source: cgi-extratags-perl
+Section: interpreters
+Priority: optional
+Maintainer: Dennis Schoen <dschoen@rio.gt.owl.de>
+Standards-Version: 3.0.1
+
+Package: libcgi-extratags-perl
+Architecture: all
+Depends: ${perl:Depends}, liburi-perl
+Description: Useful Extensions for the CGI Module
+ CGI::Extratags adds several useful methods to the CGI class,
+ such as producing HTML code for a link to an email address or
+ producing HTML code for a table row with the arguments as cell
+ contents.

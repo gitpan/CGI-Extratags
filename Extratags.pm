@@ -4,7 +4,7 @@
 
 # Author: Stefan Hornburg <racke@linuxia.net>
 # Maintainer: Stefan Hornburg <racke@linuxia.net>
-# Version: 0.01
+# Version: 0.02
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the
@@ -24,7 +24,7 @@ package CGI::Extratags;
 
 use strict;
 use vars qw($VERSION @ISA $AutoloadClass);
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 use URI::Escape;
 use CGI;

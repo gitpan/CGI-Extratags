@@ -1,16 +1,15 @@
 CGI::Extratags - Useful Extensions for the CGI Module
 *****************************************************
 
-   * The homepage of `CGI::Extratags' is 
-     http://www.linuxia.net/CGI/Extratags/.
-   * The latest version (currently 0.01) is always available as 
-     http://www.linuxia.net/CGI/Extratags/CGI-Extratags.tar.gz.
+   * The homepage of `CGI::Extratags' is http://linuxia.net/CGI/Extratags/.
+   * The latest version (currently 0.02) is always available as 
+     http://linuxia.net/CGI/Extratags/CGI-Extratags.tar.gz.
    * See the manual page for more informations.
 
 Requirements
 ************
 
-   * `URI::Escape' from `libwww-perl'
+   * `URI::Escape' from `liburi-perl'
    * `CGI.pm (URL: http://stein.cshl.org/WWW/software/CGI/)'
 
 Installation
@@ -18,11 +17,18 @@ Installation
 
 
 tar -xzf CGI-Extratags.tar.gz
-cd CGI-Extratags-0.01
+cd CGI-Extratags-0.02
 perl Makefile.PL
 make
 make install
 
+
+Debian Package
+**************
+
+This software is also available as Debian package, maintained by Dennis Schön 
+<dschoen@rio.gt.owl.de>. The download address is 
+http://linuxia.net/CGI/Extratags/libcgi-extratags-perl-0.02-1_all.deb.
 
 Author
 ******
